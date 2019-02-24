@@ -13,8 +13,8 @@
 <body>
     <!-- font-family: 'Roboto Condensed', sans-serif; -->
     <div class="wrapper">
-        <a href="#" class="logo"><img src="src/img/logo.svg" alt=""></a>
         <div class="wrap-box">
+            <a href="#" class="logo"><img src="src/img/logo.svg" alt=""></a>
             <div class="top-box-wrap">
                 <img src="src/img/img.png" alt="img" class="top-box__product">
                 <div class="top-box">
@@ -31,17 +31,8 @@
             <!-- /.top-box -->
             <div class="bottom-box-wrap">
                 <h2 class="bottom-box__title">Выбирете способ оплаты</h2>
-                <!-- <form action="" method="">
-                    <div class="form-grow">
-                        <label for="yandex" class="card-yandex">
-                            <input type="checkbox" id="yandex">
-                        </label>
-                        <label for="visa" class="card-visa">
-                            <input type="checkbox" id="visa">
-                        </label>
-                    </div>
-                </form> -->
                 <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml"> 
+                    <div class="grow-form">
                     <input type="hidden" name="receiver" value="41001xxxxxxxxxxxx"> 
                     <input type="hidden" name="formcomment" value="Проект «Железный человек»: реактор холодного ядерного синтеза"> 
                     <input type="hidden" name="short-dest" value="Проект «Железный человек»: реактор холодного ядерного синтеза"> 
@@ -55,8 +46,14 @@
                     <input type="hidden" name="need-phone" value="false"> 
                     <input type="hidden" name="need-address" value="false"> 
                     <label>
-                        <input type="radio" name="paymentType" value="PC">Яндекс.Деньгами</label> 
-                    <label><input type="radio" name="paymentType" value="AC">Банковской картой</label> 
+                        <img src="src/img/payment1.png" alt="payment1">
+                        <input type="radio" name="paymentType" value="PC">
+                    </label> 
+                    <label>
+                        <img src="src/img/payment2.png" alt="payment2">
+                        <input type="radio" name="paymentType" value="AC">
+                    </label>
+                    </div>
                     <input type="submit" value="Продолжить">
                 </form>
             </div>
