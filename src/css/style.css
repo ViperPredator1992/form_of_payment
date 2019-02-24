@@ -98,7 +98,7 @@ body {
 .logo {
   display: block;
   position: relative;
-  top: -20px;
+  top: -8px;
   left: -70px;
 }
 
@@ -110,6 +110,7 @@ body {
 .grow-form {
   padding-top: 17px;
   border-top: 1px solid #cccccc;
+  margin-right: 100px;
 }
 
 .grow-form label {
@@ -198,7 +199,6 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 110%;
 }
 
 input[type="submit"] {
