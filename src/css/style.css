@@ -34,6 +34,8 @@ body {
   max-width: 1220px;
   width: 100%;
   padding: 80px 198px 74px;
+  -webkit-box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
 }
 
 .top-box-wrap {
@@ -46,6 +48,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 184px;
 }
 
 .top-box {
@@ -77,5 +80,11 @@ body {
 
 .top-box__title, .top-box__text, .top-box__price {
   letter-spacing: 0.05em;
+}
+
+.bottom-box__title {
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  margin: 0 0 16px;
 }
 /*# sourceMappingURL=style.css.map */
