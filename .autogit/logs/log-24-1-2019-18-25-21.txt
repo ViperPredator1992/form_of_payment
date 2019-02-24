@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Sun Feb 24 2019 18:25:21 GMT+0200 (Финляндия (зима))
+------------------------------------------------------
+
+Modified files:
+* src/css/media.css
+
+
+Created files:
+* .autogit/logs/log-24-1-2019-17-55-10.txt
+
+
+Deleted files:
+
+
+Renamed files:
