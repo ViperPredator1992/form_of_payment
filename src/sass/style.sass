@@ -30,7 +30,7 @@ body
    display: flex
    align-items: flex-end
    justify-content: space-between
-   margin-bottom: 184px
+   margin-bottom: 130px
 
 .top-box
     max-width: 360px
@@ -81,6 +81,22 @@ body
         display: inline-block
         width: 240px  
         position: relative
+        border: 1px solid transparent
+        border-radius: 6px
+        cursor: pointer
+        transition: .5s
+        background-color: transparent
+
+        &:hover
+            transition: .5s
+            border: 1px solid #13C165
+
+        &:focus
+            background-color: rgba(19, 193, 101, 0.05)
+
+    & label .radio
+        width: 30px
+        height: 30px
 
 .bottom-box-wrap form
     display: flex
@@ -93,8 +109,27 @@ input[type="submit"]
     height: 50px
     text-align: center 
     font-size: 24px;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.05em
     color: #ffffff
     background-color: #13C165
     border-radius: 70px 
-    border: none          
+    border: 1px solid transparent   
+    cursor: pointer
+    outline: none 
+    transition: .5s 
+
+    &:hover
+        color: #13C165
+        background-color: #ffffff 
+        border: 1px solid #13c165
+        transition: .5s 
+
+    &:focus
+        color: #13C165
+         border: 1px solid #13C165
+        background-color: rgba(19, 193, 101, 0.05)  
+
+input[type="radio"]
+    position: absolute;
+    bottom: 8px;
+    right: 8px;            

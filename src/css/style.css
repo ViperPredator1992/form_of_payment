@@ -49,7 +49,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 184px;
+  margin-bottom: 130px;
 }
 
 .top-box {
@@ -111,6 +111,29 @@ body {
   display: inline-block;
   width: 240px;
   position: relative;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+  background-color: transparent;
+}
+
+.grow-form label:hover {
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+  border: 1px solid #13C165;
+}
+
+.grow-form label:focus {
+  background-color: rgba(19, 193, 101, 0.05);
+}
+
+.grow-form label .radio {
+  width: 30px;
+  height: 30px;
 }
 
 .bottom-box-wrap form {
@@ -136,6 +159,32 @@ input[type="submit"] {
   color: #ffffff;
   background-color: #13C165;
   border-radius: 70px;
-  border: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}
+
+input[type="submit"]:hover {
+  color: #13C165;
+  background-color: #ffffff;
+  border: 1px solid #13c165;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}
+
+input[type="submit"]:focus {
+  color: #13C165;
+  color-border: 1px solid #13C165;
+  background-color: rgba(19, 193, 101, 0.05);
+}
+
+input[type="radio"] {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
 }
 /*# sourceMappingURL=style.css.map */
