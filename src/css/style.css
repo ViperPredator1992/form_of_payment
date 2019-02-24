@@ -29,6 +29,10 @@ body {
   height: 100%;
 }
 
+.container {
+  max-width: 1260px;
+}
+
 .wrap-box {
   position: relative;
   background-color: #fff;
@@ -92,9 +96,10 @@ body {
 }
 
 .logo {
-  position: absolute;
-  top: -70px;
-  left: -80px;
+  display: block;
+  position: relative;
+  top: -20px;
+  left: -70px;
 }
 
 .logo img {

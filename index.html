@@ -13,59 +13,62 @@
 <body>
     <!-- font-family: 'Roboto Condensed', sans-serif; -->
     <div class="wrapper">
-        <div class="wrap-box">
+        <div class="container">
             <a href="#" class="logo"><img src="src/img/logo.svg" alt=""></a>
-            <div class="top-box-wrap">
-                <img src="src/img/img.png" alt="img" class="top-box__product">
-                <div class="top-box">
-                    <h1 class="top-box__title">Мужская Академия секса</h1>
-                    <p class="top-box__text">Как гарантированно стать лучшим любовником
-                    в жизни любой встреченной вами женщины.
-                    Женская психология, техники и т. д.
-                    Видео урок продолжительностью более 10ч.
-                    на русском языке.</p>
-                    <div class="top-box__price">1900<span></span></div>
-                </div>
-                <!-- /.top-box__description -->
-            </div>
-            <!-- /.top-box -->
-            <div class="bottom-box-wrap">
-                <h2 class="bottom-box__title">Выбирете способ оплаты</h2>
-                <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml"> 
-                    <div class="grow-form">
-                    <input type="hidden" name="receiver" value="41001xxxxxxxxxxxx"> 
-                    <input type="hidden" name="formcomment" value="Проект «Железный человек»: реактор холодного ядерного синтеза"> 
-                    <input type="hidden" name="short-dest" value="Проект «Железный человек»: реактор холодного ядерного синтеза"> 
-                    <input type="hidden" name="label" value="$order_id"> 
-                    <input type="hidden" name="quickpay-form" value="donate">
-                    <input type="hidden" name="targets" value="транзакция {order_id}"> 
-                    <input type="hidden" name="sum" value="4568.25" data-type="number"> 
-                    <input type="hidden" name="comment" value="Хотелось бы получить дистанционное управление."> 
-                    <input type="hidden" name="need-fio" value="true"> 
-                    <input type="hidden" name="need-email" value="true"> 
-                    <input type="hidden" name="need-phone" value="false"> 
-                    <input type="hidden" name="need-address" value="false"> 
-                    <label>
-                        <img src="src/img/payment1.png" alt="payment1">
-                        <div class="radio">
-                            <input type="radio" name="paymentType" value="PC">
-                            <span></span>
-                        </div>
-                    </label> 
-                    <label>
-                        <img src="src/img/payment2.png" alt="payment2">
-                        <div class="radio">
-                            <input type="radio" name="paymentType" value="AC">
-                            <span></span>
-                        </div>
-                    </label>
+            <div class="wrap-box">
+                <div class="top-box-wrap">
+                    <img src="src/img/img.png" alt="img" class="top-box__product">
+                    <div class="top-box">
+                        <h1 class="top-box__title">Мужская Академия секса</h1>
+                        <p class="top-box__text">Как гарантированно стать лучшим любовником
+                        в жизни любой встреченной вами женщины.
+                        Женская психология, техники и т. д.
+                        Видео урок продолжительностью более 10ч.
+                        на русском языке.</p>
+                        <div class="top-box__price">1900<span></span></div>
                     </div>
-                    <input type="submit" value="Продолжить">
-                </form>
+                    <!-- /.top-box__description -->
+                </div>
+                <!-- /.top-box -->
+                <div class="bottom-box-wrap">
+                    <h2 class="bottom-box__title">Выбирете способ оплаты</h2>
+                    <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml"> 
+                        <div class="grow-form">
+                        <input type="hidden" name="receiver" value="41001xxxxxxxxxxxx"> 
+                        <input type="hidden" name="formcomment" value="Проект «Железный человек»: реактор холодного ядерного синтеза"> 
+                        <input type="hidden" name="short-dest" value="Проект «Железный человек»: реактор холодного ядерного синтеза"> 
+                        <input type="hidden" name="label" value="$order_id"> 
+                        <input type="hidden" name="quickpay-form" value="donate">
+                        <input type="hidden" name="targets" value="транзакция {order_id}"> 
+                        <input type="hidden" name="sum" value="4568.25" data-type="number"> 
+                        <input type="hidden" name="comment" value="Хотелось бы получить дистанционное управление."> 
+                        <input type="hidden" name="need-fio" value="true"> 
+                        <input type="hidden" name="need-email" value="true"> 
+                        <input type="hidden" name="need-phone" value="false"> 
+                        <input type="hidden" name="need-address" value="false"> 
+                        <label>
+                            <img src="src/img/payment1.png" alt="payment1">
+                            <div class="radio">
+                                <input type="radio" name="paymentType" value="PC">
+                                <span></span>
+                            </div>
+                        </label> 
+                        <label>
+                            <img src="src/img/payment2.png" alt="payment2">
+                            <div class="radio">
+                                <input type="radio" name="paymentType" value="AC">
+                                <span></span>
+                            </div>
+                        </label>
+                        </div>
+                        <input type="submit" value="Продолжить">
+                    </form>
+                </div>
+                <!-- /.bottom-box -->
             </div>
-            <!-- /.bottom-box -->
+            <!-- /.wrap-box -->
         </div>
-        <!-- /.wrap-box -->
+        <!-- /.container -->
     </div>
     <script src="https://code.jquery.com/jquery.min.js"></script>
     <script src="src/js/script.js"></script>
