@@ -88,36 +88,8 @@ body {
   margin: 0 0 16px;
 }
 
-.card-yandex {
-  background: url(../img/payment1.png) no-repeat;
-  width: 240px;
-  height: 96px;
-  position: relative;
-}
-
-.card-visa {
-  background: url(../img/payment2.png) no-repeat;
-  width: 240px;
-  height: 119px;
-  position: relative;
-}
-
-.form-grow {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.form-grow input {
-  position: absolute;
-  top: 80px;
-  right: 10px;
-}
-
-.form-grow label:last-child input {
-  top: 92px;
+.logo img {
+  width: 300px;
+  height: 92px;
 }
 /*# sourceMappingURL=style.css.map */
