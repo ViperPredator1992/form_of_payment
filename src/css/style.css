@@ -16,11 +16,36 @@ body {
   color: #000000;
 }
 
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
 .wrap-box {
   background-color: #fff;
   max-width: 1220px;
   width: 100%;
   padding: 80px 198px 74px;
+}
+
+.top-box-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .top-box {
@@ -29,14 +54,28 @@ body {
 
 .top-box__title {
   font-size: 24px;
-  letter-spacing: 0.05em;
   color: #000000;
-  margin: 0 0 14px;
+  margin: 0;
 }
 
 .top-box__text {
   font-size: 16px;
+  margin: 14px 0 14px;
+}
+
+.top-box__price {
+  font-size: 28px;
+}
+
+.top-box__price span {
+  background: url(../img/rub.png) no-repeat;
+  width: 29px;
+  height: 29px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.top-box__title, .top-box__text, .top-box__price {
   letter-spacing: 0.05em;
-  margin: 0 0 14px;
 }
 /*# sourceMappingURL=style.css.map */
