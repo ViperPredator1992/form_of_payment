@@ -220,7 +220,7 @@ input[type="submit"]:hover {
   transition: .5s;
 }
 
-input[type="submit"]:focus {
+input[type="submit"].focus {
   color: #13C165;
   border: 1px solid #13C165;
   background-color: rgba(19, 193, 101, 0.05);
