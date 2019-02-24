@@ -49,12 +49,14 @@
                         <img src="src/img/payment1.png" alt="payment1">
                         <div class="radio">
                             <input type="radio" name="paymentType" value="PC">
+                            <span></span>
                         </div>
                     </label> 
                     <label>
                         <img src="src/img/payment2.png" alt="payment2">
                         <div class="radio">
                             <input type="radio" name="paymentType" value="AC">
+                            <span></span>
                         </div>
                     </label>
                     </div>
@@ -65,5 +67,13 @@
         </div>
         <!-- /.wrap-box -->
     </div>
+    <script src="https//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+           $('.grow-form label .radio').click(function () {
+             $('.grow-form label .radio').css('opacity':'1');
+           }) 
+        });
+    </script>
 </body>
 </html>
