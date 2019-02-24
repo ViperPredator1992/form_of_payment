@@ -38,8 +38,7 @@
         align-items: center;
     }
     .logo {
-        top: -40px;
-        left: -70px;
+        top: -25px;
     }
     .top-box__title {
         position: absolute;
@@ -47,7 +46,7 @@
     }
     .top-box__text {
         font-size: 18px;
-        margin: 20px 0;
+        margin: 15px 0 20px;
     }
     .bottom-box-wrap form {
         flex-direction: column;
@@ -67,20 +66,9 @@
         justify-content: center;
     }
 }
-@media(max-width: 840px) {
-    .logo {
-        left: 0;
-    }
-}
 @media(max-width: 650px) {
-    .top-box-wrap {
-        margin-top: 80px;
-    }
-    .top-box__title {
-        top: 35px;
-    }
     .logo {
-        top: -10px;
+        top: -30px;
         left: 50%;
         transform: translateX(-50%);
         -webkit-transform: translateX(-50%);
@@ -97,10 +85,9 @@
 }
 @media(max-width: 440px) {
     .top-box-wrap {
-        margin-top: 130px;
+        margin-top: 60px;
     }
     .top-box__title {
-        top: 80px;
         left: 50%;
         transform: translateX(-50%);
         font-size: 18px;
@@ -123,7 +110,7 @@
         max-width: 100%;
     }
     .top-box__text {
-        font-size: 14px;
+        font-size: 12px;
         margin: 30px 0;
     }
     .top-box-wrap {
@@ -135,14 +122,5 @@
     .grow-form {
         flex-direction: column;
         align-items: center;
-    }
-}
-
-/********** DEVISE ***********/
-
-@media(max-width: 1280px) and (max-height: 850px) {
-    .logo {
-        top: -45px;
-        left: -85px;
     }
 }
