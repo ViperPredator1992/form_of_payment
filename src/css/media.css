@@ -95,6 +95,7 @@
         text-align: -webkit-center;
     }
     .logo {
+        display: -webkit-inline-box;
         top: 20px;
     }
     .bottom-box-wrap {
