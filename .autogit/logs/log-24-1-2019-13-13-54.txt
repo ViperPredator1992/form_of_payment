@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Sun Feb 24 2019 13:13:54 GMT+0200 (Финляндия (зима))
+------------------------------------------------------
+
+Modified files:
+* index.html
+* src/css/style.css
+* src/css/style.css.map
+* src/sass/style.sass
+
+
+Created files:
+* .autogit/logs/log-24-1-2019-12-43-41.txt
+* src/img/payment1.png
+* src/img/payment2.png
+
+
+Deleted files:
+
+
+Renamed files:

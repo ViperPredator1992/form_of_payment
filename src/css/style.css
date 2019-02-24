@@ -92,12 +92,14 @@ body {
   background: url(../img/payment1.png) no-repeat;
   width: 240px;
   height: 96px;
+  position: relative;
 }
 
 .card-visa {
   background: url(../img/payment2.png) no-repeat;
   width: 240px;
   height: 119px;
+  position: relative;
 }
 
 .form-grow {
@@ -109,11 +111,13 @@ body {
           align-items: center;
 }
 
-.form-grow .yandex input {
-  margin: 75px 0 0 220px;
+.form-grow input {
+  position: absolute;
+  top: 80px;
+  right: 10px;
 }
 
-.form-grow .visa input {
-  margin: 85px 0 0 240px;
+.form-grow label:last-child input {
+  top: 92px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -65,19 +65,23 @@ body
     background: url(../img/payment1.png) no-repeat
     width: 240px
     height: 96px
+    position: relative
 
 .card-visa
     background: url(../img/payment2.png) no-repeat
     width: 240px
-    height: 119px   
+    height: 119px  
+    position: relative 
 
 .form-grow
     display: flex
     align-items: center
 
-    & .yandex input
-        margin: 75px 0 0 220px
+    & input
+        position: absolute;
+        top: 80px;
+        right: 10px;
 
-    & .visa input
-        margin: 85px 0 0 240px           
+    & label:last-child input
+        top: 92px
 
