@@ -42,6 +42,9 @@
 }
 
 @media(max-width: 970px) {
+    .bottom-box-wrap {
+        margin-bottom: 60px;
+    }
     body {
         background-color: #fff;
     }
