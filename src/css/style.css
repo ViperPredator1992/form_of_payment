@@ -53,6 +53,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 16px;
   margin-bottom: 130px;
 }
 
@@ -96,10 +97,9 @@ body {
 }
 
 .logo {
-  display: block;
-  position: relative;
-  top: -8px;
-  left: -70px;
+  display: inline-block;
+  margin-top: -30px;
+  margin-left: -50px;
 }
 
 .logo img {
