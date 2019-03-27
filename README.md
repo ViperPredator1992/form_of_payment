@@ -1,2 +1,2 @@
-# form_of_paymentt
+# form_of_payment
 Форма оплаты
